@@ -1,12 +1,10 @@
 # include<stdio.h>
 
 int main() {
-    printf("hello world \n");
-    printf("hello world \n");
-    printf("hello world \n");
-    printf("hello world \n");
-    int age = 22;
-    printf("age is %d",age);
+    int side;
+    printf("enter side :");
+    scanf("%d", &side);
+    printf("area is: %d",side*side);
     return 0;
 }
 
