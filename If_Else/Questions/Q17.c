@@ -23,8 +23,7 @@ int main() {
    else if (number>=41 && number<=50){
     printf("Below Avarage");
    }
-   else
-   {
+   else{
     printf("Fail");
    }
    
