@@ -6,5 +6,5 @@
     printf("\n%d",j);
     j = j+1;
    }
-   
+   return 0;   
 }
