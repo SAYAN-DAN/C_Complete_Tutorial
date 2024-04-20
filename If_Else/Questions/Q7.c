@@ -4,12 +4,10 @@ int main() {
     int number;
     printf("Enter the number:");
     scanf("%d", &number);
-    if (number >99 && number<1000)
-    {
+    if (number >99 && number<1000){
         printf("This number is a three digit number");
     }
-    else
-    {
+    else{
        printf("This number is not a three digit number");
     }
     return 0;

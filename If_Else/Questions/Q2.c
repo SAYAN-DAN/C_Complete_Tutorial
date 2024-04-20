@@ -5,12 +5,10 @@ int main() {
     int number;
     printf("Enter the number:");
     scanf("%d", &number);
-    if (number % 5 == 0)
-    {
+    if (number % 5 == 0){
         printf("This number is divisable by 5");
     }
-    else
-    {
+    else{
        printf("This number is not divisable by 5");
     }
     return 0;

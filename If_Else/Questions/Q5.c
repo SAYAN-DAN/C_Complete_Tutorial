@@ -7,20 +7,15 @@ int main() {
     scanf("%d", &cost);   
     printf("Enter the selling: ");
     scanf("%d", &selling);
-    if (cost < selling)
-    {
+    if (cost < selling){
         printf("The seller made profit\n");
         printf("The profit is: %d" , selling - cost);
-    }else if (cost > selling)
-    {
+    }else if (cost > selling){
         printf("The seller made loss\n");
         printf("The loss is: %d" ,cost - selling);
     }
-    else
-    {
+    else{
         printf("no profit , no loss");
-    }
-    
-    
+    }    
     return 0;
 }

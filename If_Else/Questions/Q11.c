@@ -1,4 +1,4 @@
-// Take 3 numbers input and tell if they can be the sides of a triangle
+// Take 3 numbers input and tell if they can be the sides of a triangle.
 
 #include<stdio.h>
 int main() {
@@ -9,14 +9,12 @@ int main() {
     scanf("%d", &side2);
     printf("Enter the side3:");
     scanf("%d", &side3);
-   if (side1+side2>side3 && side2+side3>side1 && side1+side3>side2)
-   {
+   if (side1+side2>side3 && side2+side3>side1 && side1+side3>side2){
     printf("This a valid triangle side");
    }
-   else
-   {
+   else{
     printf("This is not a valid trianglr side");
-   }
-    
+   }    
     return 0;
 }
+

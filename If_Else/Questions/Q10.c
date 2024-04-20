@@ -9,18 +9,14 @@ int main() {
     scanf("%d", &Shyam);
     printf("Enter the Ajay's age:");
     scanf("%d", &Ajay);
-    if (Ram < Shyam && Ram < Ajay)
-    {
+    if (Ram < Shyam && Ram < Ajay){
         printf("Ram is younger\nAnd the age is: %d" , Ram);
     }
-    else if (Shyam < Ram && Shyam < Ajay)
-    {
+    else if (Shyam < Ram && Shyam < Ajay){
         printf("Shyam is younger\nAnd the age is: %d" , Shyam);
     }
-    else
-    {
+    else{
         printf("Ajay is younger\nAnd the age is: %d" , Ajay);
-    }
-    
+    }   
     return 0;
 }

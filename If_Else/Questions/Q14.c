@@ -10,7 +10,7 @@ int main() {
             printf("This number is divisible by 5 or 3 but not divisable by 15");
         }
         else{
-           printf("This number is divisible by 15");
+           printf("This number is divisible by 5 or 3 and divisable by 15");
         }       
     }
     else{
@@ -18,5 +18,17 @@ int main() {
     }
     return 0;
 }
-
-
+//***********************************************************************
+#include<stdio.h>
+int main() {
+    int number;
+    printf("Enter the number:");
+    scanf("%d", &number);
+    if ((number % 5 == 0 || number % 3 ==0) && number%15 != 0 ){
+         printf("This number is divisible by 5 or 3 but not divisable by 15");
+    }
+    else{
+        printf("This number is divisible by 5 or 3 and divisable by 15");
+    }
+    return 0;
+}
