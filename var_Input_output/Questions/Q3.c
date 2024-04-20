@@ -1,4 +1,5 @@
-// Calculate simple interect
+// Calculate simple interect -------------
+
 #include <stdio.h>
 int main(){
     float principal, Interest,Time,value;
