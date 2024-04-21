@@ -1,8 +1,8 @@
 // Print the given pattern
-// 1 
-// 1 2 
-// 1 2 3 
-// 1 2 3 4
+// 1 3 5 7
+// 1 3 5 7
+// 1 3 5 7
+// 1 3 5 7
 
 #include<stdio.h>
 int main() {
@@ -10,11 +10,10 @@ int main() {
     printf("Enter the number:");
     scanf("%d", &n);
     for ( i = 1; i <=n; i++){
-        for ( j = 1; j <=i ; j++)
-        {
+        for ( j = 1; j <=2*n - 1; j= j+2){
             printf("%d ", j);
         }
         printf("\n");
-    }
-    
+    }    
 }
+
