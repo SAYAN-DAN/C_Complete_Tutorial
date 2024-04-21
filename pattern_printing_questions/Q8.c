@@ -1,3 +1,5 @@
+// 49:22 Q8 - Odd Number Triangle
+
 // Print the given pattern
 // 1 
 // 1 3 
