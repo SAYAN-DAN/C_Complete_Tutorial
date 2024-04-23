@@ -84,3 +84,20 @@
 // }
 
 
+// #include<stdio.h>
+// int main() {
+//     int x = 6;
+// int y = x++;
+// int z = ++x;
+// printf("%d\n", y);
+// printf("%d\n", x);
+// printf("%d\n", z);
+// }
+
+// #include<stdio.h>
+// int main() {
+//     char n;
+//     printf("Enter the char:");
+//     scanf("%c" , &n);
+
+// }
