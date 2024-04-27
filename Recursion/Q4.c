@@ -1,25 +1,20 @@
-// print sum from 1 to n....
+// print sum from 1 to n....(parameterised);
+#include<stdio.h>
 
+void  sum(int n , int s) {
+   if (n ==0){
+    printf("%d", s);
+      return ;
+   }
+   sum(n-1,n+s);
+   
+}
 
-
-
-
-
-#include <stdio.h>
-int main()
-{
-    int n, original;
+#include<stdio.h>
+int main() {
+    int n;
     printf("Enter a number: ");
     scanf("%d", &n);
-    original = n;
-    int r = 0;
-    while (n > 0)
-    {
-        r = r * 10;
-        r = r + (n % 10);
-        n = n / 10;
-    }
-    int sum = r + original;
-    printf("The sum of digit is :%d", sum);
+    sum(n,0);
     return 0;
 }
