@@ -10,6 +10,7 @@ void  sum(int n , int s) {
    
 }
 
+
 #include<stdio.h>
 int main() {
     int n;
@@ -18,3 +19,4 @@ int main() {
     sum(n,0);
     return 0;
 }
+
