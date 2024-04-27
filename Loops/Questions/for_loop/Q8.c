@@ -14,7 +14,7 @@
 
 
 // : Display this AP - 4,7,10,13,16.. upto ‘n’ terms.
-//solve tis question with a anather way
+//solve this question with a anather way .....
 #include<stdio.h>
 int main() {
     int i,n,a;
@@ -28,3 +28,4 @@ int main() {
     
     return 0;
 }
+
