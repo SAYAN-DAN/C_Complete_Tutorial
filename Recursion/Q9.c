@@ -1,6 +1,5 @@
 // Stair Path - 2
 
-
 #include<stdio.h>
 int stairs(int n) {
     if ( n ==1 || n==2 || n ==3){
