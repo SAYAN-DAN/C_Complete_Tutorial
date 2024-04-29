@@ -6,6 +6,12 @@ int factorial(int n) {
     }    
     int recursion = n*factorial(n-1);
      return recursion; 
+    // int fact = 1;
+    // for ( int i = 1; i <=n; i++)
+    // {
+    //     fact = fact*i;
+    // }
+    // return fact;    
 }
 int main() {
     int n;

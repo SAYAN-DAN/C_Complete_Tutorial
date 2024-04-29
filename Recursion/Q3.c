@@ -1,6 +1,7 @@
 // print decreasing and increasing..
-#include<stdio.h>
 
+
+#include<stdio.h>
  void number(int n){
     if (n ==0) return;
     printf("%d\n", n);
