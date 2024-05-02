@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "q8.C": "cpp"
+        "q8.C": "cpp",
+        "q17.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
