@@ -6,5 +6,5 @@ int main() {
         sub[i] = i;
         printf("\n%d",sub[i]);
     }
-
+    return 0;
 }
