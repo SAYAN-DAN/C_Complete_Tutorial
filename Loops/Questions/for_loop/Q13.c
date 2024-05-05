@@ -16,10 +16,10 @@ int main(){
         printf("1 is neither prime nor composite\n");
     }
     else if (a == 0){
-        printf("the given code is prime number \n");
+        printf("the given number is prime number \n");
     }
     else{
-        printf("the given code is composite number \n");
+        printf("the given number is composite number \n");
     }
     return 0;
 }

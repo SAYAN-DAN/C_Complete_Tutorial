@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+int main(){
     float x = 1.1;
     while (x == 1.1)
     {

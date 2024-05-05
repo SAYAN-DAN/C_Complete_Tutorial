@@ -8,8 +8,8 @@ int main()
         }
         else{
             printf("\n%d %d" , x,y);
-             x--;
-             y++;
+             x--;  // x = 3,2
+             y++;  // y = 1,2
         }        
     }
     

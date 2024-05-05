@@ -12,8 +12,8 @@ int main() {
     scanf("%d", &b);
     printf("Enter the c: ");
     scanf("%d", &c);
-    if (a>b) {
-        if (a>c) {
+    if (a>b){
+        if (a>c){
             printf("A is greater");
         }
         else{
