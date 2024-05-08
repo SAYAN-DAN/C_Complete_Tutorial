@@ -8,7 +8,6 @@ int main(){
         char ch = (char)i;
         printf("%c = ", ch);
         printf("%d\n", i);
-    }
-    
+    }    
     return 0;
 }
