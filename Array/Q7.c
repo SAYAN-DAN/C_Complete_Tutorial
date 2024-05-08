@@ -1,4 +1,6 @@
 // Find the minimum value out of all the element in the array...
+// int arr[5] = {2,56,76,23,12};
+
 #include<stdio.h>
 int main(){
     int arr[5] = {2,56,76,23,12};
