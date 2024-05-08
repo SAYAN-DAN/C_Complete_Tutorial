@@ -1,7 +1,6 @@
 // Given three points (x1, y1), (x2, y2) and (x3, y3), write a program to check if all the three points fall on one straight line
 
 #include <stdio.h>
-
 int main() {
     double x1 = 3.0, y1 = 2.0;
     double x2 = 3.0, y2 = 4.0;
@@ -16,6 +15,5 @@ int main() {
     }
      // printf("m1: %lf\n", m1);
     // printf("m2: %lf\n", m2);
-
     return 0;
 }

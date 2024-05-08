@@ -19,5 +19,5 @@ int main() {
     else{
         printf("The piont does not lies on x or y axis");
     }
-    
+    return 0;
 }
