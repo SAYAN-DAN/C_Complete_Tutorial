@@ -1,6 +1,7 @@
 // print sum from 1 to n....(parameterised);
-#include<stdio.h>
 
+
+#include<stdio.h>
 void  sum(int n , int s) {    // n =>5,4,3,2,1,0  , s=>0,5,8,11,13,15
    if (n ==0){
     printf("%d", s);
