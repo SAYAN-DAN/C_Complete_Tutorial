@@ -16,3 +16,4 @@ int main() {
     printf("%d", fact);
     return 0;
 }
+

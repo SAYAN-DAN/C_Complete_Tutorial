@@ -2,7 +2,6 @@
 // Write a function to compute the greatest common divisor of two given numbers....
 
 #include<stdio.h>
-
 int min(int a, int b) {
     if ( a<b){
         return a;

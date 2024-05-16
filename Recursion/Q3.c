@@ -1,5 +1,4 @@
-// print decreasing and increasing..
-
+// print decreasing and increasing......
 
 #include<stdio.h>
  void number(int n){
@@ -17,3 +16,4 @@ int main() {
     number(n);
     return 0;   
 }
+

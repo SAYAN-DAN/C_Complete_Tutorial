@@ -2,7 +2,6 @@
 // Make a function which calculates 'a' raised  to the power 'b' using recurtion....
 
 #include<stdio.h>
-
 int power(int a, int b) {
      if (b == 0) return 1;
      int recturtion  = a * power(a,b-1);        
