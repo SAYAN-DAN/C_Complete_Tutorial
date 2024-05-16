@@ -10,6 +10,8 @@ int min(int a, int b) {
         return b;
     }    
 }
+
+
 int gcd(int a, int b) {
     int hcf;
     for ( int i = 1; i <= min(a,b); i++){
