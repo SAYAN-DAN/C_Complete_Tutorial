@@ -1,27 +1,32 @@
 
-#include<stdio.h>
-int sum(int n) {
-    if (n ==1 || n ==0){
-        return n;
-    }    
-    int recursion = n+sum(n-1);
-     return recursion; 
+#include <stdio.h>
+int factotial(int x)
+{
+    int fact = 1;
+    for (int i = 2; i <= x; i++)
+    {
+        fact = fact * i;
+    }
+    return fact;
 }
 
+int combination(int n, int r)
+{
+    int ncr = factotial(n) / (factotial(r) * factotial(n - r));
+    return ncr;
+}
 
-
-int main() {
-    int n;
-    printf("Enter a number:");
+int main()
+{
+    int n, r;
+    printf("Enter n: ");
     scanf("%d", &n);
-    int fact = sum(n);
-    printf("%d", fact);
+    printf("Enter r: ");
+    scanf("%d", &r);
+    int ncr = combination(n, r);
+    printf("%d", ncr);
     return 0;
 }
-
-
-
-
 
 // Given the length and breadth of a rectangle, write a program to find whether the area of the rectangle is greater than its perimeter.
 // #include<stdio.h>
