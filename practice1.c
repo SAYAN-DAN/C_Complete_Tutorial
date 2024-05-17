@@ -1,32 +1,30 @@
 
-#include <stdio.h>
-int factotial(int x)
-{
-    int fact = 1;
-    for (int i = 2; i <= x; i++)
-    {
-        fact = fact * i;
-    }
-    return fact;
+// Make a function which calculates the factorial of n using recursion.....
+#include<stdio.h>
+int factorial(int n) {
+    if (n ==1 || n ==0){
+        return 1;
+    }    
+    int recursion = n*factorial(n-1);
+     return recursion; 
+    // int fact = 1;
+    // for ( int i = 1; i <=n; i++)
+    // {
+    //     fact = fact*i;
+    // }
+    // return fact;    
 }
-
-int combination(int n, int r)
-{
-    int ncr = factotial(n) / (factotial(r) * factotial(n - r));
-    return ncr;
-}
-
-int main()
-{
-    int n, r;
-    printf("Enter n: ");
+int main() {
+    int n;
+    printf("Enter a number:");
     scanf("%d", &n);
-    printf("Enter r: ");
-    scanf("%d", &r);
-    int ncr = combination(n, r);
-    printf("%d", ncr);
+    int fact = factorial(n);
+    printf("%d", fact);
     return 0;
 }
+
+
+
 
 // Given the length and breadth of a rectangle, write a program to find whether the area of the rectangle is greater than its perimeter.
 // #include<stdio.h>

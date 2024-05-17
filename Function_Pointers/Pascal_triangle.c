@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 int factotial(int x){
     int fact = 1;
@@ -7,12 +6,10 @@ int factotial(int x){
     }
     return fact;    
 }
-
 int combination(int n,int r) {    
     int ncr=  factotial(n)/(factotial(r)*factotial(n-r));
     return ncr;
 }
-
 int main() {
     int n,i,j;
     printf("Enter n: ");
@@ -25,8 +22,7 @@ int main() {
         printf(" %d " , icj);
      }
      printf("\n");
-    }
-    
+    }    
     return 0;
 }
 
