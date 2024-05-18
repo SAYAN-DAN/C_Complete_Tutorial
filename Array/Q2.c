@@ -9,7 +9,7 @@ int main() {
     {
         if (marksarr[i] < 35)
         {
-            printf("%d" , marksarr[i]);
+            printf("%d " , marksarr[i]);
         }        
     }    
     return 0;

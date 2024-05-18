@@ -14,3 +14,25 @@ int main(){
     printf("The minimum value is: %d", max);
     return 0;        
 }
+
+
+
+
+
+//**********************************************************************************
+// #include<stdio.h>
+// int main() {
+//     int arr[5] = {45,76,89,11,23};
+//     int mimimumvalue;
+//     for (int i = 0; i < 5; i++)
+//     {
+//         if (mimimumvalue > arr[i])
+//         {
+//             mimimumvalue = arr[i];
+//         }
+        
+//     }
+//     printf("The mimimumvalue is %d", mimimumvalue);
+//     return 0;
+// }
+
