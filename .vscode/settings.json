@@ -5,5 +5,5 @@
         "q17.C": "cpp",
         "q4.C": "cpp"
     },
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "enabled"
 }
