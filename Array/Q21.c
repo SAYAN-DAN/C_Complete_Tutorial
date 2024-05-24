@@ -1,5 +1,6 @@
 // Find the unique number in a given array where all the element are being repeated twice with ane value being unique
 
+
 #include <stdio.h>
 #include <stdbool.h>
 int main()
