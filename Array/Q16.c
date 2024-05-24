@@ -1,7 +1,6 @@
 // If an Array arr contains n elements, then check if the given array is a palindrome or not......
 
 #include <stdio.h>
-
 int main() {
     int arr[7] = {1, 2, 3, 4, 3, 2, 1};
     int n = 7;  // Size of the array

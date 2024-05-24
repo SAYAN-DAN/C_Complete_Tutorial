@@ -1,7 +1,7 @@
 // Wrrite a program to reverse the array without using an extra array..
+//  THIS IS A INTERESTING QUESTION
 
 #include<stdio.h>
-
 void reverse(int arr[]){
     int i = 0;
     int j = 6;
