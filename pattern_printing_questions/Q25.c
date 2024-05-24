@@ -1,8 +1,8 @@
-//     *
-//    ***
-//   *****
-//  *******
-// *********
+//     A
+//    ABC
+//   ABCDE
+//  ABCDEFG
+// ABCDEFGHI
 #include<stdio.h>
 int main() {
     int n;
@@ -13,12 +13,15 @@ int main() {
         for (int j = 1; j <= n-i; j++){
             printf(" ");                     
         }
-        for (int j = 1; j <= 2*i - 1; j++)
+        int a= 1;
+        for (int k = 1; k <= 2*i - 1; k++)
         {
-            printf("*");
+            int  d = a +64;
+            char ch = (char)d;
+            printf("%c ", ch);
+            a++;
         }
-        printf("\n");        
+        printf("\n");   
     }
     return 0;
 }
-
