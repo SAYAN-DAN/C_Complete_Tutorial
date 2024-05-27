@@ -1,34 +1,40 @@
+//    *
+//   ***
+//  *****
+// *******
+//  *****
+//   ***
+//    *
 
-//   *
-//  ***
-// *****
-//  ***
-//   *
 #include<stdio.h>
 int main() {
     int n;
-    printf("Enter the number:");
+    printf("Enter the number: ");
     scanf("%d", &n);
-    int nsp = n/2;
-    int nst = 1;
-    int ml = n/2 + 1;
+    int numberofSpaces = n/2;
+    int numberofStars = 1;
+    int middleline = n/2+1;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= nsp; j++){
+        for (int j = 1; j <= numberofSpaces; j++)
+        {
             printf(" ");
         }
-        for (int k = 1; k <= nst; k++){
+        for (int k = 1; k <= numberofStars; k++)
+        {
             printf("*");
         }
-        if (i < ml){
-             nsp--;
-             nst += 2;
-        }
-        else{
-            nsp++;
-            nst -= 2;
-        }
-        printf("\n");               
+       if (i < middleline)
+       {
+           numberofSpaces--;
+           numberofStars+=2;
+       }
+       else
+       {
+        numberofSpaces++;
+        numberofStars-=2;
     }
+    printf("\n");      
+    }  
     return 0;    
 }
