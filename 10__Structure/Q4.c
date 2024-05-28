@@ -25,6 +25,5 @@ int main() {
     // Print the age of the second person
     printf("Age of the second person: %d\n", person2.age);
     printf("Salary of the second person: %d\n", person2.salary);
-
     return 0;
 }
