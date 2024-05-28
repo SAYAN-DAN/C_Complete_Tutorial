@@ -6,7 +6,7 @@ int main() {
         char name[50];
         int noofpages;
         float price;
-    }a,b,c;
+    }a;
      a.noofpages = 100;
      a.price = 444.50;
      strcpy(a.name,"Sayan Dan");
