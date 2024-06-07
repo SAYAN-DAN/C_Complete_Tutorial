@@ -1,5 +1,4 @@
 // Find the maximum element in a 2D_Array
-
 #include<stdio.h>
 int main(){
     int rows = 2;
@@ -13,12 +12,9 @@ int main(){
             if (max < arr[i][j])
             {
              max =arr[i][j];
-            }
-            
-        }
-        
+            }            
+        }        
     }
-    printf("The maximum element in 2D_Array: %d", max);
-    
+    printf("The maximum element in 2D_Array: %d", max);    
     return 0;
 }

@@ -1,5 +1,4 @@
 // Find the minimum element in a 2D_Array
-
 #include<stdio.h>
 int main(){
     int rows = 2;
