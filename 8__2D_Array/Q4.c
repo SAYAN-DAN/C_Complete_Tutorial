@@ -1,5 +1,6 @@
-// Write a pprogram to store 10 at every index of a 2D Matrix with 5 rows and 5 column...
 
+
+// Write a pprogram to store 10 at every index of a 2D Matrix with 5 rows and 5 column...
 #include<stdio.h>
 int main() {
     int arr[5][5];

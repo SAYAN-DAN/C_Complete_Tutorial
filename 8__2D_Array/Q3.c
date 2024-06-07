@@ -1,37 +1,40 @@
 
+// Enter roll number for student 1: 1
+// Enter marks obtained by student 1: 99
+// Enter roll number for student 2: 2
+// Enter marks obtained by student 2: 98
+// Enter roll number for student 3: 3
+// Enter marks obtained by student 3: 97
+// Enter roll number for student 4: 4
+// Enter marks obtained by student 4: 95
 
-#include<stdio.h>
-
+// Roll Number and Marks:
+// Roll Number     Marks
+// 1               99
+// 2               98
+// 3               97
+// 4               95
+#include <stdio.h>
 int main() {
-    int student, rows, column;
-
-    printf("Enter the number of students: ");
-    scanf("%d", &student);
-
-    for (int i = 0; i < student; i++) {
-        printf("Enter the number of rows for student %d: ", i+1);
-        scanf("%d", &rows);
-
-        int arr[rows][3]; // Assuming each student has 3 columns for roll number, marks, and marks obtained
-
-        // Input roll number and marks obtained for each student
-        printf("Enter roll number and marks obtained for student %d:\n", i+1);
-        for (int j = 0; j < rows; j++) {
-            printf("Enter roll number and marks separated by space for row %d: ", j+1);
-            for (int k = 0; k < 3; k++) {
-                scanf("%d", &arr[j][k]);
-            }
-        }
-
-        // Display the matrix for student i
-        printf("Matrix for student %d:\n", i+1);
-        for (int j = 0; j < rows; j++) {
-            for (int k = 0; k < 3; k++) {
-                printf("%d ", arr[j][k]);
-            }
-            printf("\n");
-        }
+    // Define the matrix to store roll numbers and marks
+    int students[4][2];
+    
+    // Input data for 4 students
+    for (int i = 0; i < 4; i++) {
+        printf("Enter roll number for student %d: ", i + 1);
+        scanf("%d", &students[i][0]);  // Roll number
+        
+        printf("Enter marks obtained by student %d: ", i + 1);
+        scanf("%d", &students[i][1]);  // Marks
     }
-
+    
+    // Print the stored data
+    printf("\nRoll Number and Marks:\n");
+    printf("Roll Number\tMarks\n");
+    for (int i = 0; i < 4; i++) {
+        printf("%d\t\t%d\n", students[i][0], students[i][1]);
+    }
+    
     return 0;
 }
+

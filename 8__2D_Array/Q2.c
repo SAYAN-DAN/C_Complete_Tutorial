@@ -1,3 +1,16 @@
+
+// Enter the number of rows: 3
+// Enter the number of columns: 3
+// 1 2 3
+
+// 4 5 6
+
+// 7 8 9
+
+
+// 1  2  3  
+// 4  5  6  
+// 7  8  9  
 #include<stdio.h>
 int main() {
     int r;
@@ -13,9 +26,10 @@ int main() {
         }
         printf("\n");        
         }
+        printf("\n");        
     for (int i = 0; i < r ; i++){
         for (int j = 0; j < c; j++){
-            printf("%d", arr[i][j]);
+            printf("%d  ", arr[i][j]);
         }
         printf("\n");
         }

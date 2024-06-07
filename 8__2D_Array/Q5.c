@@ -1,4 +1,7 @@
 
+// 6 8
+// 10 12
+
 // Write a program to add two matrices...
 #include<stdio.h>
 int main() {
