@@ -1,5 +1,5 @@
-// Write a program to add two matrices...
 
+// Write a program to add two matrices...
 #include<stdio.h>
 int main() {
     int arr[2][2] = {1,2,3,4};

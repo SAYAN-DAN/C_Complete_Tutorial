@@ -1,32 +1,3 @@
-// SOME THING WRONG IN THIS CODE 
-
-// // Write a program to store roll number and marks obtained by 4 students side by side in a matrix..
-// #include<stdio.h>
-// int main() {
-//     int student,rows,column;
-//     printf("Enter the student number: ");
-//     scanf("%d", &student);
-//     for (int i = 0; i <=student; i++){
-//         printf("Enter the rows: ");
-//         scanf("%d",&rows);        
-//         // printf("Enter the column: ");
-//         // scanf("%d",&column);        
-//         int arr[rows][3];
-//         for (int j = 0; j < rows; j++){
-//             for (int k = 0; k < 3; k++){
-//                 scanf("%d",&arr[j][k]);
-//             }
-//             printf("\n");            
-//         }
-//         for (int j = 0; j < rows; j++){
-//             for (int k = 0; k < 3; k++){
-//                 printf("%d",arr[j][k]);
-//             }
-//             printf("\n");            
-//         }
-//     }
-//      return 0;            
-// }
 
 
 #include<stdio.h>
