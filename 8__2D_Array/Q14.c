@@ -10,8 +10,7 @@ int main() {
         for (int j = 0; j < n; j++){
             scanf("%d", &arr[i][j]);
         }
-        }
-        
+        }        
     // Transpose
     for (int i = 0; i < n ; i++){
         for (int j = i; j < n; j++){

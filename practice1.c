@@ -12,21 +12,12 @@ int main() {
             scanf("%d", &arr[i][j]);
         }
         }
-        int brr[c][r];
     for (int i = 0; i < c ; i++){
         for (int j = 0; j < r; j++){
-            // printf("%d", arr[j][i]);
-            brr[i][j] = arr[j][i];
+            printf("%d", arr[j][i]);
         }
         printf("\n");
         }
 
-    for (int i = 0; i < c ; i++){
-        for (int j = 0; j < r; j++){
-            // printf("%d", arr[j][i]);
-            printf("%d  ",brr[i][j]);
-        }
-        printf("\n");
-        }    
         return 0;    
 }
