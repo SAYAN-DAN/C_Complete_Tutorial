@@ -1,20 +1,30 @@
 // Find the maximum element in a 2D_Array
+
 #include<stdio.h>
-int main(){
-    int rows = 2;
-    int columns = 2;
-    int arr[2][2] = {{1,2},{3,4}};
-    int max = arr[0][0];
-    for (int i = 0; i < rows; i++)
-    {
-        for (int j = 0; j < columns; j++)
-        {
+int main() {
+    int r;
+    printf("Enter the number of rows: ");
+    scanf("%d",&r);
+    int c;
+    printf("Enter the number of columns: ");
+    scanf("%d",&c);
+    int arr[r][c];
+     for (int i = 0; i < r ; i++){
+        for (int j = 0; j < c; j++){
+            scanf("%d", &arr[i][j]);
+        }
+        printf("\n");        
+        }
+        printf("\n");
+        int max = arr[0][0];
+       for (int i = 0; i < r ; i++){
+        for (int j = 0; j < c; j++){
             if (max < arr[i][j])
             {
-             max =arr[i][j];
+                max = arr[i][j];
             }            
-        }        
-    }
-    printf("The maximum element in 2D_Array: %d", max);    
-    return 0;
+        }
+        }
+        printf("The Maximum Value of this matrix is:%d", max);
+        return 0;        
 }

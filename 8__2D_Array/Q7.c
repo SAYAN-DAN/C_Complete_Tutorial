@@ -1,6 +1,5 @@
 
 // Find the sum of a given matrix of n * m;
-
 #include<stdio.h>
 int main() {
     int r;
