@@ -1,4 +1,4 @@
-// Wrrite a program to copy the contents of one array into anather in the reverse order..
+// Write a program to copy the contents of one array into anather in the reverse order..
 
 #include<stdio.h>
 int main() {
