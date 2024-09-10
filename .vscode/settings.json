@@ -5,5 +5,7 @@
         "q17.C": "cpp",
         "q4.C": "cpp"
     },
-    "C_Cpp.errorSquiggles": "enabled"
+    "C_Cpp.errorSquiggles": "enabled",
+    "pieces.cloudCapabilities": "Blended",
+    "pieces.telemetry": true
 }
