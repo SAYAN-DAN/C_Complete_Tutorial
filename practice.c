@@ -1,32 +1,19 @@
 
+#include <stdio.h>
 
-#include<stdio.h>
-int main() {
-    int i,j,n;
-    printf("Enter the number:");
+int main()
+{
+    int n, remainder;
+    printf("Enter the number: ");
     scanf("%d", &n);
-    for ( i = 1; i <=n; i++)
+    while (n != 0)
     {
-        for ( j = 1; j <=i; j++)
-        {
-            printf("*");
-        }
-        printf("\n");        
+        remainder = n % 10;
+        printf("%d", remainder);
+        n = n / 10;
     }
-    return 0;    
+    return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Given the length and breadth of a rectangle, write a program to find whether the area of the rectangle is greater than its perimeter.
 // #include<stdio.h>
@@ -137,7 +124,6 @@ int main() {
 //     }
 // }
 
-
 // #include<stdio.h>
 // int main() {
 //     int x = 6;
@@ -155,7 +141,6 @@ int main() {
 //     scanf("%c" , &n);
 
 // }
-
 
 // #include <stdio.h>
 // int main(){
@@ -180,4 +165,3 @@ int main() {
 //     }
 //     return 0;
 // }
-
